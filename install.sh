@@ -38,8 +38,8 @@ mkdir -p ~/.config/nvim
 cp nvim/init.vim ~/.config/nvim
 mkdir -p ~/.config/nvim/dein
 mkdir -p ~/.config/nvim/dein/userconfig
-cp nvim/dein/userconfig/dein.toml ~/dotfiles/nvim/dein/userconfig/
-cp nvim/dein/userconfig/dein_lazy.toml ~/dotfiles/nvim/dein/userconfig
+cp nvim/dein/userconfig/dein.toml ~/.config/nvim/dein/userconfig/
+cp nvim/dein/userconfig/dein_lazy.toml ~/.config/nvim/dein/userconfig
 mkdir -p ~/.config/nvim/colors
 cp nvim/colors/molokai.vim ~/.config/nvim/colors/
 
