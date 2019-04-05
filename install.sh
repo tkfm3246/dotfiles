@@ -19,7 +19,7 @@ cp zsh/.zshrc ~/
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
 # tmux-powerlineを入れる
-git clone https://github.com/erikw/tmux-powerline.git
+git clone https://github.com/erikw/tmux-powerline.git ~/tmux-powerline
 
 # Powerline用のフォントを入れる
 git clone https://github.com/powerline/fonts.git
