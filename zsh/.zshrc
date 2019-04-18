@@ -2,7 +2,7 @@
 export PATH=/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="~/.oh-my-zsh"
+export ZSH="/Users/Takafumi/.oh-my-zsh"
 
 ZSH_THEME="robbyrussell"
 
@@ -16,7 +16,7 @@ alias vim="nvim"
 
 PROMPT="%B%F{cyan}❯%f%b "
 
-PS1="$PS1"'$([ -n "$TMUX" ] && tmux setenv TMUXPWD_$(tmux display -p "#D" | tr -d %) "$PWD")'
+PROMPT+='$([ -n "$TMUX" ] && tmux setenv TMUXPWD_$(tmux display -p "#D" | tr -d %) "$PWD")'
 
 export PATH="$HOME/Library/Python/2.7/bin:$PATH"
 
