@@ -2,6 +2,7 @@ set ignorecase
 set hlsearch
 set number
 syntax on
+set clipboard=unnamed
 set tabstop=4
 set t_Co=256
 set background=dark
